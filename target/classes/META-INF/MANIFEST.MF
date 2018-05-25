@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: AIT
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: usertqi
+Implementation-Vendor-Id: br.ufu.ppgco
+Build-Jdk: 1.8.0_171
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/AIT
+Created-By: Maven Integration for Eclipse
+
