@@ -6,8 +6,13 @@
 	<artifactId>AIT</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<name>Autonomous Intelligent Tutor</name>
+	<description>Implementação de um sistema tutor inteligente</description>
+	
 	<properties>
 		<spring.security.version>5.0.0.RELEASE</spring.security.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
 
 	<parent>
@@ -32,7 +37,7 @@
 			<version>42.2.2</version>
 		</dependency>
 
-		<dependency>
+<!-- 		<dependency>
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-web</artifactId>
 			<version>${spring.security.version}</version>
@@ -42,6 +47,17 @@
 			<groupId>org.springframework.security</groupId>
 			<artifactId>spring-security-config</artifactId>
 			<version>${spring.security.version}</version>
+		</dependency> -->
+		
+		<dependency>            
+    		<groupId>org.springframework.boot</groupId>
+   			 <artifactId>spring-boot-starter-thymeleaf</artifactId>
+ 		</dependency>
+ 		
+ 		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<optional>true</optional>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
@@ -51,7 +67,18 @@
 			<version>1.2</version>
 			<scope>provided</scope>
 		</dependency>
-
+		
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>3.3.7</version>
+		</dependency>
+		
+		<dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-core</artifactId>
+            <version>5.2.5.Final</version>
+        </dependency>
 
 	</dependencies>
 

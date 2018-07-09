@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Implementation-Title: AIT
+Implementation-Title: Autonomous Intelligent Tutor
 Implementation-Version: 0.0.1-SNAPSHOT
 Built-By: usertqi
 Implementation-Vendor-Id: br.ufu.ppgco
